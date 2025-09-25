@@ -29,5 +29,6 @@ public class Switch {
             default:
                 System.out.println("Invalid");
         }
+        obj.close();
     }
 }
